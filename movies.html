@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>movies</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body{
+            
+            width: 100%;
+            height: 100%;
+            
+        }  
+    
+        .movie-main {
+            background: linear-gradient(135deg, #5a0443, #7c0606, #2c053d);
+            width: 100%;
+            min-height: 100vh;
+            padding:  20px;
+            color: white;
+
+        }
+
+    .mov-h{
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        text-align: center;
+        color: rgba(255, 221, 89, 0.9);
+        text-shadow: 4px 4px black;
+        margin-bottom: 40px;
+    }
+    .movies-section1 {
+        display: flex;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    
+
+    .movie-card1 {
+        background: rgba(255, 255, 255, 0.147);
+        border-radius: 10px;
+        padding: 20px;
+        margin-left: 20px;
+        flex: 1;
+    }
+
+    .movie-img1 img {
+        width: 300px; 
+        border-radius: 10px;
+    }
+    .movie-img1 :hover{
+
+        transform: scale(1.1);
+    }
+    .movie-title1 {
+        font-size:25px;
+        color: #ffdd59;
+        margin: 20px;
+    }
+
+    .movie-description1 {
+        font-size: 14px;
+        color: rgb(216, 213, 210);
+        margin: 10px;
+        text-align: justify;
+    }
+
+
+    /*second movies*/
+    .movies-section2 {
+        display: flex;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        height: 50%;
+    }
+
+    
+
+    .movie-card2 {
+        background: rgba(255, 255, 255, 0.147);
+        border-radius: 10px;
+        padding: 20px;
+        margin-left: 20px;
+        flex: 1;
+        height: 50%;
+    }
+
+    .movie-img2 img {
+        width: 300px; 
+        border-radius: 10px;
+    }
+    .movie-img2 :hover{
+
+        transform: scale(1.1);
+    }
+    .movie-title2 {
+        font-size:25px;
+        color: #ffdd59;
+        margin: 20px;
+    }
+
+    .imgh{
+        height: 80%;
+    }
+        
+    .movies-section3 {
+        display: flex;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    
+
+    .movie-card3 {
+        background: rgba(255, 255, 255, 0.147);
+        border-radius: 10px;
+        padding: 20px;
+        margin-left: 20px;
+        flex: 1;
+    }
+
+    .movie-img3 img {
+        width: 300px; 
+        border-radius: 10px;
+    }
+    .movie-img3 :hover{
+
+        transform: scale(1.1);
+    }
+    .movie-title3 {
+        font-size:25px;
+        color: #ffdd59;
+        margin: 20px;
+    }
+
+
+    
+    </style>
+
+</head>
+<body>
+    <nav class="nav-cont" >
+        <ul class="nav-link">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="movies.html">MOVIES</a></li>
+            <li><a href="artists.html">ARTISTS</a></li>
+            <li><a href="directors.html">DIRECTORS</a></li>
+            <li><a href="songs.html">SONGS</a></li>
+        </ul>
+    </nav>
+
+            <!-- Movies Section -->
+    <div class="movie-main">
+        <div class="mov-h">
+            <h1>Movies That Inspire</h1>
+        </div>
+    
+<!-- Movies Section1 -->
+        <section class="movies-section1">
+            <div class="movie-img1">
+                <img src="Assets/images/anad.jpg" alt="Anand">
+            </div>
+
+            <div class="movie-card1">
+                <div class="movie-title1">
+                    <h2>Anand (1971)</h2>
+                    <p><strong style="color: black;  text-shadow: 2px 2px rgb(162, 147, 147);">Director:</strong> Hrishikesh Mukherjee</p>
+                    <p><strong style="color: black; text-shadow: 2px 2px rgb(162, 147, 147);">Actors:</strong> Rajesh Khanna, Amitabh Bachchan</p>
+                </div>
+                <div class="movie-description1">
+                    <p>
+                        Anand is a classic Bollywood film that tells the heartwarming story of a terminally ill man who brings joy and laughter to everyone around him. His positive outlook on life and his friendship with a doctor lead to profound lessons about love, life, and the inevitability of death. 
+                        The film tells the story of Anand Sehgal (played by Rajesh Khanna),
+                        a terminally ill man diagnosed with lymphosarcoma of the intestine. 
+                        Despite knowing his days are numbered, Anand exudes optimism and spreads 
+                        happiness wherever he goes. His infectious charm and cheerful demeanor 
+                        profoundly impact the lives of those around him.
+                        The story is narrated by Dr. Bhaskar Banerjee, aka Babu Moshai (played by Amitabh Bachchan), 
+                        a serious and reserved physician who becomes Anand's close friend.
+                        The film explores themes of mortality, friendship, and the human spirit.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+ <!-- Movies Section2 -->
+
+        <section class="movies-section2">
+            <div class="movie-img2">
+                <img src="Assets/images/patherpanchali.jpeg" alt="Anand"  class="imgh">
+            </div>
+
+            <div class="movie-card2">
+                <div class="movie-title2">
+                    <h2>Pather Panchali (1955)</h2>
+                    <p><strong style="color: black;  text-shadow: 2px 2px rgb(162, 147, 147);">Director:</strong> Satyajit Ray</p>
+                    <p><strong style="color: black; text-shadow: 2px 2px rgb(162, 147, 147);">Actors:</strong> Subir Banerjee, Karuna Banerjee, Chunibala Devi</p>
+                </div>
+                <div class="movie-description">
+                    <p>
+                        *Pather Panchali* is a timeless masterpiece of Indian cinema that depicts 
+                        the struggles and aspirations of a poor family in rural Bengal. The film 
+                        follows the story of Apu, a young boy with dreams of a brighter future, and 
+                        his family, who endure hardship and poverty. 
+                        Set against the backdrop of a rural village, the narrative beautifully 
+                        captures the innocence of childhood and the resilience of the human spirit.
+                        Directed by Satyajit Ray, the film introduces audiences to Apu's world through
+                        evocative imagery and poignant storytelling. Apu’s relationship with his sister Durga, 
+                        his loving but struggling parents, and the wise yet frail Indir Thakrun (played by Chunibala Devi) 
+                        weave an intricate tapestry of human emotions. 
+                        <i>Pather Panchali</i> is a cinematic exploration of life, loss, and survival, 
+                        offering profound insights into the simplicity and beauty of human connections.
+                    </p>
+                </div>
+            </div>
+        </section>
+    
+
+        <!-- Movies Section3 -->
+        <section class="movies-section3">
+            <div class="movie-img3">
+                <img src="Assets/images/pyasa.jpg" alt="pyaasa">
+            </div>
+
+            <div class="movie-card3">
+                <div class="movie-title3">
+                    <h2>Pyaasa (1957)</h2>
+                    <p><strong style="color: black;  text-shadow: 2px 2px rgb(162, 147, 147);">Director:</strong> Guru Dutt</p>
+                    <p><strong style="color: black; text-shadow: 2px 2px rgb(162, 147, 147);">Actors:</strong> Guru Dutt, Waheeda Rehman, Mala Sinha</p>
+                </div>
+                <div class="movie-description">
+                    <p>
+                        *Pyaasa* is a poignant exploration of love, loss, and the struggles of a disillusioned poet in a materialistic world.
+                        The film revolves around Vijay (played by Guru Dutt), a sensitive and idealistic poet whose work is unappreciated 
+                        in a society driven by greed and ambition. 
+                        As Vijay navigates the harsh realities of life, he encounters two women who shape his journey: Meena (Mala Sinha), a 
+                        former lover who has chosen wealth over love, and Gulabo (Waheeda Rehman), a kind-hearted prostitute who sees the 
+                        worth of Vijay's poetry and soul. 
+                        Directed by Guru Dutt, *Pyaasa* is a lyrical masterpiece that questions societal values while celebrating the 
+                        resilience of the human spirit. With its hauntingly beautiful songs by Sahir Ludhianvi and S.D. Burman, the film 
+                        remains an enduring testament to the struggles of the artist in a commercialized world.
+                        *Pyaasa* remains a powerful commentary on the struggles of unrecognized talent, the cost of artistic integrity, 
+                        and the search for meaning in a materialistic world. Its universal themes and emotional depth make it a hallmark 
+                        of Indian cinema that continues to resonate with audiences across generations.
+
+                
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+<!-- Movies Section4 -->
+    
+<!-- Movies Section5 -->
+
+
+
+    
+    </div>  
+</body>
+</html>

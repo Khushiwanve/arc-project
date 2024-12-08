@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HOME</title>
+    <style>
+        /* History Section Styling */
+.history-section {
+    padding: 20px 20px;
+    background: #fff7e6;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 1200px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ad2020;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.history-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.history-text {
+    flex: 1;
+    min-width: 300px;
+    text-align: left;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.history-images {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.star-img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.star-img:hover {
+    transform: scale(1.1);
+
+}
+
+.bg-hist{
+    background: linear-gradient(135deg,  #05426b, #b04bdb);
+    width: 100%;
+}
+
+
+
+/* Legends of Indian Cinema Section */
+.icons-section {
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.icons-section .section-title {
+    font-size: 2rem;
+    color: #444;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #ff5722; 
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.icons-section p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    max-width: 700px;
+}
+
+.icons-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between  */
+}
+
+.icon-img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 20%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.icon-img:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+    border: 2px solid #ff5722; 
+}
+/* Milestones in Indian Cinema Section */
+
+.milestones-section {
+    padding: 40px 20px;
+    background-color: #e4c7c7;
+    border-radius: 8px;
+    margin: 40px ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.milestones-section .section-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    margin-top: 10px;
+    padding:10px;
+}
+
+
+.milestones-section {
+
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.milestone-content {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    max-width: 900px;
+    margin:  auto;
+
+}
+
+
+.milestones-section p {
+    margin: 20px ;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.milestones-section p strong {
+    color: #333;
+    font-weight: bold;
+}
+
+
+    </style>
+</head>
+<body>
+    <nav class="nav-cont">
+        <ul class="nav-link">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="movies.html">MOVIES</a></li>
+            <li><a href="artists.html">ARTISTS</a></li>
+            <li><a href="directors.html">DIRECTORS</a></li>
+            <li><a href="songs.html">SONGS</a></li>
+        </ul>
+    </nav>
+
+    <header class="header">
+        <div class="header-cont">
+            <div class="header-left">
+                <h1 class="header-title">Bollywood Classics</h1>
+                <h2>Discover the timeless magic of Bollywood's golden era. A rich tapestry of iconic films, unforgettable performances, and cinematic legacies.</h2>
+                <p class="header-description">
+                    The Cinema of India, consisting of motion pictures made by the Indian film industry, 
+                    has had a large effect on world cinema since the second half of the 20th century.
+                    Indian cinema is made up of various film industries, each producing films in different languages, 
+                    including Hindi, Telugu, Tamil, Kannada, Malayalam, Marathi, Bengali, Punjabi, Bhojpuri and others.
+                </p>
+            </div>
+            <div class="header-right">
+                <!-- Image Slider -->
+                <div class="slider-container">
+                    <div class="slider">
+                        <img src="Assets/images/pyasa.jpg" alt="Classic Bollywood Cinema 1" class="slider-image img-gid" >
+                        <img src="Assets/images/Sholay-poster.jpg" alt="Classic Bollywood Cinema 2" class="slider-image img-gid">
+                        <img src="Assets/images/Silsila_1981_poster.jpg" alt="Classic Bollywood Cinema 3" class="slider-image img-gid">
+                        <img src="Assets/images/Dilwale_Dulhania_Le_Jayenge_poster.jpg" alt="Classic Bollywood Cinema 2" class="slider-image img-gid">
+                        <img src="Assets/images/anad.jpg" alt="Classic Bollywood Cinema 1" class="slider-image img-gid" >
+                        <img src="Assets/images/pyasa.jpg" alt="Classic Bollywood Cinema 1" class="slider-imageimg-gid">
+                        <img src="Assets/images/images.jpg" alt="Classic Bollywood Cinema 1" class="slider-image img-gid"  >
+                        <img src="Assets/images/padosan.jpg" alt="Classic Bollywood Cinema 1" class="slider-image img-gid"  >
+                        <img src="Assets/images/Anari.jpg" alt="Classic Bollywood Cinema 1" class="slider-image img-gid"  >
+                        <img src="Assets/images/csbaat.jpg" alt="Classic Bollywood Cinema 1" class="slider-image img-gid"  >
+                        <img src="Assets/images/meranamjoker.jpg" alt="Classic Bollywood Cinema 1" class="slider-image img-gid"  >
+                        <img src="Assets/images/Pakeezah.jpg" alt="Classic Bollywood Cinema 1" class="slider-image img-gid"  >
+                        <img src="Assets/images/sps.jpg" alt="Classic Bollywood Cinema 1" class="slider-image img-gid">
+                        <img src=" Assets/images/Masoom_1983.jpg" alt="Classic Bollywood Cinema 1" class="slider-image img-gid">
+                        
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+    <main>
+        <div class="bg-hist">
+        <!-- History Section -->
+        <section class="history-section">
+            <h2 class="section-title">History of Indian Cinema</h2>
+            <div class="history-content">
+                <div class="history-text">
+                    <p>
+                        Indian cinema, a vibrant tapestry of cultures and languages, began its journey in 1913 with 
+                        the silent film <i>Raja Harishchandra</i> by Dadasaheb Phalke, marking the birth of a cinematic legacy. Over the decades, 
+                        Indian cinema has become one of the largest and most influential film industries in the world, producing over 2,000 
+                        films annually across diverse languages and genres. During the golden era of the 1950s and 1960s, filmmakers like 
+                        Guru Dutt with masterpieces such as <i>Kaagaz Ke Phool</i> redefined cinematic storytelling through poetic visuals 
+                        and poignant narratives. From the grandeur of *Mughal-e-Azam* to the action-packed tales of *Sholay*, Indian films 
+                        have celebrated timeless themes of love, valor, and social transformation. Today, icons like *Dilwale Dulhania Le Jayenge* 
+                        continue to resonate, reflecting the enduring legacy of Indian cinema's journey from celluloid to global acclaim.
+                    </p>
+                    <p>
+                        The golden era of the 1950s and 1960s saw the emergence of legendary filmmakers like Guru Dutt, whose 
+                        cinematic masterpiece <i>Kaagaz Ke Phool</i> is celebrated for its hauntingly poetic storytelling and innovative 
+                        use of light and shadow. Other stalwarts such as Raj Kapoor with films like <i>Awaara</i> and Bimal Roy with 
+                        socially conscious films like <i>Do Bigha Zamin</i> captured the soul of India, portraying themes of love, 
+                        struggle, and hope. The period also witnessed the rise of powerful performances by actors such as Dilip Kumar, 
+                        Nargis, and Meena Kumari, who became synonymous with the golden age of Bollywood.  
+                    </p>
+                </div>
+                <div class="history-images">
+                    <img src="Assets/images/idimg.jpeg" alt="Dadasaheb Phalke" class="star-img">
+                    <img src="Assets/images/mughal-e-azam.jpg" alt="Mughal-e-Azam Poster" class="star-img">
+                    <img src="Assets/images/Sholay-poster.jpg" alt="Sholay Poster" class="star-img">
+                    <img src="Assets/images/Dilwale_Dulhania_Le_Jayenge_poster.jpg" alt="Dilwale Dulhania Le Jayenge Poster" class="star-img">
+                    <img src="Assets/images/guru.jpg" alt="Sholay Poster" class="star-img">
+                    <img src="Assets/images/kkf.jpg" alt="Sholay Poster" class="star-img">
+                </div>
+            </div>
+        </section>
+    </div>   
+
+<!-- for the indian artist (top) -->
+    <section class="icons-section">
+        <h2 class="section-title">Legends of Indian Cinema</h2>
+        <div class="icons-content">
+            <p>
+                Indian cinema has been graced by the presence of legendary actors like Amitabh Bachchan, Madhubala, 
+                and Rajinikanth, whose performances have captivated audiences worldwide. Directors like Satyajit Ray 
+                and Yash Chopra redefined storytelling, while musicians such as Lata Mangeshkar and A.R. Rahman created 
+                melodies that transcended borders.
+            </p>
+            <div class="icons-images">
+                <img src="Assets/images/bigb.jpg" alt="Amitabh Bachchan" class="icon-img">
+                <img src="Assets/images/lataji.jpg" alt="Lata Mangeshkar" class="icon-img">
+                <img src="Assets/images/ray3.jpg" alt="Satyajit Ray" class="icon-img">
+                <img src="Assets/images/madhubala.jpg" alt="Satyajit Ray" class="icon-img">
+            </div>
+            </div>
+        
+    </section>
+
+    <!-- for milestone -->
+    <section class="milestones-section">
+        <h2 class="section-title">Milestones in Indian Cinema</h2>
+        <ul class="milestone-list">
+            <li><strong>1913:</strong> Release of the first Indian silent film <i>Raja Harishchandra</i>.</li>
+            <li><strong>1931:</strong> <i>Alam Ara</i>, India's first sound film, hits the screens.</li>
+            <li><strong>1955:</strong> Satyajit Ray's <i>Pather Panchali</i> wins global acclaim.</li>
+            <li><strong>2009:</strong> A.R. Rahman wins two Oscars for <i>Slumdog Millionaire</i>.</li>
+            <li><strong>2023:</strong> *RRR* wins an Oscar for Best Original Song.</li>
+        </ul>
+    </section>
+    
+    
+    </main>
+    
+
+</body>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bollywood Songs</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        /* Navigation Bar */
+        .nav-cont {
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        .nav-link {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .nav-link li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        .nav-link a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        .nav-link a:hover {
+            color: #f0a500;
+        }
+
+        /* Songs Section */
+        h2 {
+            text-align: center;
+            margin-top: 20px;
+            color: #333;
+            font-size: 28px;
+        }
+
+        .songs-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        .song-item {
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            margin: 10px;
+            width: 250px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .song-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .song-poster {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .song-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin: 10px 0 5px;
+            text-align: center;
+        }
+
+        .song-artist {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-link li {
+                display: block;
+                margin: 10px 0;
+            }
+
+            .songs-container {
+                padding: 10px;
+            }
+
+            .song-item {
+                width: 200px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .song-item {
+                width: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav-cont">
+        <ul class="nav-link">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="movies.html">MOVIES</a></li>
+            <li><a href="artists.html">ARTISTS</a></li>
+            <li><a href="directors.html">DIRECTORS</a></li>
+            <li><a href="songs.html">SONGS</a></li>
+        </ul>
+    </nav>
+
+    <h2>Classic Old Bollywood Songs</h2>
+    <div class="songs-container">
+        <div class="song-item">
+            <img src="lag_jaa_gale.jpg" alt="Lag Jaa Gale Poster" class="song-poster">
+            <div class="song-title">Lag Jaa Gale</div>
+            <div class="song-artist">Lata Mangeshkar (Woh Kaun Thi, 1964)</div>
+        </div>
+        <div class="song-item">
+            <img src="mere_sapno_ki_rani.jpg" alt="Mere Sapno Ki Rani Poster" class="song-poster">
+            <div class="song-title">Mere Sapno Ki Rani</div>
+            <div class="song-artist">Kishore Kumar (Aradhana, 1969)</div>
+        </div>
+        <div class="song-item">
+            <img src="pyaar_hua.jpg" alt="Pyaar Hua Iqraar Hua Poster" class="song-poster">
+            <div class="song-title">Pyaar Hua Iqraar Hua</div>
+            <div class="song-artist">Manna Dey & Lata Mangeshkar (Shree 420, 1955)</div>
+        </div>
+        <div class="song-item">
+            <img src="ajeeb_dastan.jpg" alt="Ajeeb Dastan Hai Yeh Poster" class="song-poster">
+            <div class="song-title">Ajeeb Dastan Hai Yeh</div>
+            <div class="song-artist">Lata Mangeshkar (Dil Apna Aur Preet Parai, 1960)</div>
+        </div>
+        <div class="song-item">
+            <img src="pal_pal_dil_ke_paas.jpg" alt="Pal Pal Dil Ke Paas Poster" class="song-poster">
+            <div class="song-title">Pal Pal Dil Ke Paas</div>
+            <div class="song-artist">Kishore Kumar (Blackmail, 1973)</div>
+        </div>
+        <div class="song-item">
+            <img src="chaudhvin_ka_chand.jpg" alt="Chaudhvin Ka Chand Poster" class="song-poster">
+            <div class="song-title">Chaudhvin Ka Chand</div>
+            <div class="song-artist">Mohammed Rafi (Chaudhvin Ka Chand, 1960)</div>
+        </div>
+        <div class="song-item">
+            <img src="ek_pyar_ka_nagma.jpg" alt="Ek Pyar Ka Nagma Hai Poster" class="song-poster">
+            <div class="song-title">Ek Pyar Ka Nagma Hai</div>
+            <div class="song-artist">Lata Mangeshkar & Mukesh (Shor, 1972)</div>
+        </div>
+        <div class="song-item">
+            <img src="kabhi_kabhie.jpg" alt="Kabhi Kabhie Mere Dil Mein Poster" class="song-poster">
+            <div class="song-title">Kabhi Kabhie Mere Dil Mein</div>
+            <div class="song-artist">Mukesh (Kabhi Kabhie, 1976)</div>
+        </div>
+        <div class="song-item">
+            <img src="tere_bina.jpg" alt="Tere Bina Zindagi Se Poster" class="song-poster">
+            <div class="song-title">Tere Bina Zindagi Se Koi Shikwa</div>
+            <div class="song-artist">Lata Mangeshkar & Kishore Kumar (Aandhi, 1975)</div>
+        </div>
+        <div class="song-item">
+            <img src="yeh_shaam_mastani.jpg" alt="Yeh Shaam Mastani Poster" class="song-poster">
+            <div class="song-title">Yeh Shaam Mastani</div>
+            <div class="song-artist">Kishore Kumar (Kati Patang, 1971)</div>
+        </div>
+    </div>
+</body>
+</html>
+
