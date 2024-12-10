@@ -6,6 +6,70 @@
     <link rel="stylesheet" href="style.css">
     <title>Directors</title>
     <style>
+        @media (max-width: 768px) {
+            .header-title {
+                font-size: 24px;
+                text-align: center;
+            }
+        
+            .nav-link {
+                flex-direction: column;
+                gap: 10px;
+                align-items: center;
+            }
+        
+            .header-description, 
+            .history-text, 
+            .milestone-content, 
+            .icons-section p {
+                font-size: 14px;
+                text-align: justify;
+            }
+        
+            .slider-container {
+                height: 200px;
+                margin: 10px;
+            }
+        
+            .slider-image {
+                height: 200px;
+                object-fit: cover;
+            }
+        
+            .star-img, .icon-img {
+                width: 80px;
+                height: auto;
+            }
+        
+            .history-images, 
+            .icons-images {
+                justify-content: center;
+                gap: 10px;
+            }
+        
+            .header-cont {
+                flex-direction: column;
+                text-align: center;
+            }
+        
+            .header-left, 
+            .header-right {
+                margin: 0;
+                text-align: center;
+            }
+        
+            .history-content, 
+            .icons-content {
+                flex-direction: column;
+                gap: 20px;
+            }
+        
+            .milestones-section {
+                padding: 20px 10px;
+                margin: 20px;
+            }
+        }
+        
 
         .header-gal{
             background: linear-gradient(135deg,#812c08, #dc9830f2, #e96d4e, #6b0707);
@@ -121,7 +185,10 @@
             .gall-sec{
                 background: linear-gradient(120deg,rgba(209, 228, 40, 0.658), #00000077, #3a3a2b9b, rgba(202, 223, 12, 0.734));
             }
-        
+            .yt-width{
+                width: 700px;
+
+            }
     </style>
     
 </head>
@@ -227,7 +294,7 @@
 
         <div class="second-dir">
             <div class="yt-vid">
-                <img src="Assets/images/raju.jpeg" alt="Rajkumar Hirani">
+                <img src="Assets/images/raju.jpeg" alt="Rajkumar Hirani"  class="yt-width">
             </div>
             <div class="rj-dis">
                 <h2>Rajkumar Hirani</h2>
@@ -244,7 +311,7 @@
 
         <div class="second-dir">
             <div class="yt-vid1">
-                <img src="Assets/images/sanjoy5.jpg" alt="Sanjay Leela Bhansali">
+                <img src="Assets/images/sanjoy5.jpg" alt="Sanjay Leela Bhansali" class="yt-width">
             </div>
             <div class="rj-dis">
                 <h2>Sanjay Leela Bhansali</h2>

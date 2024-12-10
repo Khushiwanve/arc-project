@@ -9,21 +9,70 @@ html, body{
     
     
 }
- /* Responsive Design */
-        @media (max-width: 768px) {
-            .nav-link li {
-                display: block;
-                margin: 10px 0;
-            }
+ /* Responsive */
+@media (max-width: 768px) {
+    .header-title {
+        font-size: 24px;
+        text-align: center;
+    }
 
-            .songs-container {
-                padding: 10px;
-            }
+    .nav-link {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
 
-            .song-item {
-                width: 200px;
-            }
-        }
+    .header-description, 
+    .history-text, 
+    .milestone-content, 
+    .icons-section p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .slider-container {
+        height: 200px;
+        margin: 10px;
+    }
+
+    .slider-image {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .star-img, .icon-img {
+        width: 80px;
+        height: auto;
+    }
+
+    .history-images, 
+    .icons-images {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .header-cont {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-left, 
+    .header-right {
+        margin: 0;
+        text-align: center;
+    }
+
+    .history-content, 
+    .icons-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .milestones-section {
+        padding: 20px 10px;
+        margin: 20px;
+    }
+}
 
     
 
